@@ -1,0 +1,85 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/*body {
+
+}*/
+
+/* style the header */
+header {
+    background-color: grey;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    height: 200px;
+    padding: 20px;
+    margin-bottom: 0;
+}
+
+/* style the input */
+input {
+    margin: 0;
+    align-items: center;
+    border: none;
+    width: 75%;
+    padding: 15px;
+    float: left;
+    font-size: 16px;
+}
+
+/* style the add button*/
+.addBtn {
+    background-color: silver;
+    padding: 15px;
+    width: 25%;
+    float: left;
+ 
+}
+
+h1 {
+    font-size: 100px;
+}
+
+/*main*/
+main {
+    background-color: rgb(218, 198, 198);
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+/*lis items*/
+ul li {
+    list-style-type: none;
+    font-size: 18px;
+    margin: auto;
+    padding: 10px 8px 12px 40px;
+    color: whitesmoke;
+}
+
+/* give the nth-child a odd bg-color*/
+ul li:nth-child(odd) {
+    background-color: rgba(0, 0, 0, 0.603);
+}
+
+/*change color when hover on the list items*/
+ul li:hover {
+    background-color: rgba(150, 148, 148, 0.685);
+}
+
+/*list items when checked*/
+ul li:checked {
+    background-color: black;
+    color: white;
+    text-decoration: line-through;
+}
+
+ul li::before {
+    content: '';
+    position: absolute;
+
+}
